@@ -10,6 +10,11 @@ let statusDict = {
         title: "Burnt",
         description: "Data successfully burnt"
     },
+    "error": {
+        emoji: "⚠️",
+        title: "Error",
+        description: "An error occurred"
+    },
     "unknown": {
         emoji: "🤷‍♂️",
         title: "Unknown",

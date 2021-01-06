@@ -17,3 +17,20 @@ input, textarea, button, p, div, section, article, select {
     font-size: 1em;
     margin: 0.5em;
 }
+
+.blur-in {
+    animation: blurin 1.5s ease forwards;
+}
+  
+@keyframes blurin {
+    from {
+        opacity: 0;
+        transform: scale(0.5) rotate(160deg);
+        filter: blur(0.3rem);
+    }
+    to { 
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+    }
+}
